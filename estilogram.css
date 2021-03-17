@@ -36,7 +36,7 @@ body{
 }
 
 .instagram-phone img {
-    height: 40rem;
+    height: 45rem;
 }
 
 .instagram-continue {
@@ -59,14 +59,16 @@ body{
     width: 100%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
+    margin-bottom: 3px;
 }
 
 .group:nth-child(1) {
-        min-height: 19rem;
+        min-height: 20rem;
+        
 }
 
-.innstagram-logo {
-        height: 3rem;
+.instagram-logo {
+        height: 4rem;
 
     }
 
@@ -112,26 +114,27 @@ body{
     align-items: center;
     width: 100%;
     padding: 1.3rem 0;
-    
-}
+ }
 
 .download {
-    display: flex;
+    display:flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     align-items: center;
-    padding: 1rem;
+    padding: 1.3rem;
 }
 
 .app-download {
-    height: 3rem;
-    width: 10rem;
-    background-size: cover;
+    height: 4rem;
+    width: 15rem;
+    background-size:cover;
 
 }
 
 .app-download:nth-child(1) {
-    background-image: url('./img/App-Store-Button-PNG.png');
+    background-image: url('./img/App-Store-Button.png');
+    
+    
 
 }
 
